@@ -35,3 +35,16 @@ E --> F[Dashboard Visualization & Alerting]
 | **Evaluation**          | Assess using ROC-AUC, Precision, Recall, and F1 score.                 |
 | **Interpretation**      | Visualize anomalies to differentiate fraud vs malfunction.             |
 
+
+## 🧰 Tech Stack
+
+- **Programming:** Python (Pandas, NumPy, Scikit-learn, TensorFlow)
+
+- **Visualization:** Matplotlib, Seaborn, Plotly
+
+- **Dashboard (optional):** Streamlit or Power BI
+
+- **Storage:** CSV, SQL, or Cloud Storage
+
+- **Deployment (optional):** Flask API or Streamlit Web App
+
