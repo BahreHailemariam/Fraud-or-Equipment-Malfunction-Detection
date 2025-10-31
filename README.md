@@ -48,3 +48,31 @@ E --> F[Dashboard Visualization & Alerting]
 
 - **Deployment (optional):** Flask API or Streamlit Web App
 
+## ⚙️ Folder Structure
+```
+Fraud_or_Equipment_Malfunction_Detection/
+│
+├── data/
+│   ├── system_data.csv
+│   ├── transaction_data.csv
+│
+├── scripts/
+│   ├── load_data.py
+│   ├── preprocess_data.py
+│   ├── feature_engineering.py
+│   ├── train_model.py
+│   ├── detect_anomalies.py
+│   ├── visualize_results.py
+│
+├── app/
+│   ├── streamlit_app.py
+│
+├── models/
+│   ├── trained_model.pkl
+│
+├── reports/
+│   ├── EDA_Report.ipynb
+│
+├── README.md
+└── requirements.txt
+```
