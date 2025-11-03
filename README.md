@@ -76,3 +76,15 @@ Fraud_or_Equipment_Malfunction_Detection/
 ├── README.md
 └── requirements.txt
 ```
+## 🧪 Sample Implementation
+### 🗂️ scripts/load_data.py
+
+``` python
+import pandas as pd
+
+def load_data(file_path):
+    """Load sensor or transactional data"""
+    df = pd.read_csv(file_path)
+    print(f"Loaded dataset with {df.shape[0]} rows and {df.shape[1]} columns.")
+    return df
+```
