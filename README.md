@@ -102,3 +102,16 @@ def preprocess_data(df):
     return scaled
 ```
 
+
+### ⚙️ scripts/train_model.py
+
+```python
+from sklearn.ensemble import IsolationForest
+
+def train_model(X):
+    """Train anomaly detection model"""
+    model = IsolationForest(contamination=0.05, random_state=42)
+    model.fit(X)
+    return model
+```
+
