@@ -174,3 +174,17 @@ def visualize_results(data):
 ## 🧠 Key Insight
 
 “Early detection of fraud or malfunction helps protect both revenue and reputation — intelligent monitoring is the key to resilience.”
+
+## 🏁 How to Run
+```bash
+# Clone repository
+git clone https://github.com/<your-org>/Fraud_or_Equipment_Malfunction_Detection.git
+cd Fraud_or_Equipment_Malfunction_Detection
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run pipeline
+python scripts/detect_anomalies.py
+```
+
