@@ -171,3 +171,6 @@ def visualize_results(data):
 
 - Introduce explainable AI (XAI) for transparency in anomaly reasoning.
 
+## 🧠 Key Insight
+
+“Early detection of fraud or malfunction helps protect both revenue and reputation — intelligent monitoring is the key to resilience.”
