@@ -160,3 +160,14 @@ def visualize_results(data):
 | Recall    | 0.85  |
 | F1 Score  | 0.88  |
 | ROC-AUC   | 0.94  |
+
+## 🚀 Future Enhancements
+
+- Incorporate sensor health monitoring with IoT integration.
+
+- Combine rule-based and ML-based detection.
+
+- Deploy live alerts via REST API or Power BI push dataset.
+
+- Introduce explainable AI (XAI) for transparency in anomaly reasoning.
+
