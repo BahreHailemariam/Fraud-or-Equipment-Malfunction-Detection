@@ -188,3 +188,12 @@ pip install -r requirements.txt
 python scripts/detect_anomalies.py
 ```
 
+## 🧩 Example Dashboard
+
+The Streamlit or Power BI dashboard can visualize:
+
+- Number of anomalies detected over time
+
+- Fraud vs equipment malfunction ratio
+
+- Device or account-level anomaly drill-down
