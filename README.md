@@ -197,3 +197,11 @@ The Streamlit or Power BI dashboard can visualize:
 - Fraud vs equipment malfunction ratio
 
 - Device or account-level anomaly drill-down
+
+## 🧑‍💻 Contributors
+
+This open-source project is maintained by data analysts and engineers passionate about reliability and fraud prevention.
+```vbnet
+
+Would you like me to **generate the folder structure with runnable sample scripts** (like `.py` files and a mock dataset) to accompany this README so you can directly use it in GitHub or Power BI integration?
+```
