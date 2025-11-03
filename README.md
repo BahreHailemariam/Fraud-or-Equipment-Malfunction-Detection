@@ -88,3 +88,17 @@ def load_data(file_path):
     print(f"Loaded dataset with {df.shape[0]} rows and {df.shape[1]} columns.")
     return df
 ```
+
+### 🧹 scripts/preprocess_data.py
+
+```python
+from sklearn.preprocessing import StandardScaler
+
+def preprocess_data(df):
+    """Handle missing values and scale features"""
+    df = df.fillna(df.mean())
+    scaler = StandardScaler()
+    scaled = scaler.fit_transform(df.select_dtypes(float))
+    return scaled
+```
+
