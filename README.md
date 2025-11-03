@@ -126,3 +126,28 @@ def detect_anomalies(model, X, data):
     data['label'] = data['anomaly'].map({1: 'Normal', -1: 'Suspicious'})
     return data[data['label'] == 'Suspicious']
 ```
+### 📊 scripts/visualize_results.py
+
+```python
+import matplotlib.pyplot as plt
+
+def visualize_results(data):
+    """Plot detected anomalies"""
+    plt.figure(figsize=(8,5))
+    plt.scatter(range(len(data)), data['anomaly'], c=data['anomaly'], cmap='coolwarm')
+    plt.title("Detected Anomalies")
+    plt.xlabel("Records")
+    plt.ylabel("Anomaly Score")
+    plt.show()
+```
+
+## 📈 Visualization Ideas
+
+- **Time Series Chart:** Highlight spikes or drops in readings/transactions.
+
+- **Anomaly Heatmap:** Cluster anomalies by category or machine ID.
+
+- **Pie Chart:** Fraud vs Equipment-related issue ratio.
+
+- **Dashboard:** Live anomaly monitoring in Streamlit or Power BI.
+
