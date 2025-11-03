@@ -151,3 +151,12 @@ def visualize_results(data):
 
 - **Dashboard:** Live anomaly monitoring in Streamlit or Power BI.
 
+
+## 📊 Sample Results
+
+| Metric    | Value |
+| --------- | ----- |
+| Precision | 0.92  |
+| Recall    | 0.85  |
+| F1 Score  | 0.88  |
+| ROC-AUC   | 0.94  |
