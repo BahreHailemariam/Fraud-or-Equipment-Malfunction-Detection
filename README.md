@@ -115,3 +115,14 @@ def train_model(X):
     return model
 ```
 
+### 🚨 scripts/detect_anomalies.py
+
+```python
+import pandas as pd
+
+def detect_anomalies(model, X, data):
+    """Predict anomalies and tag as Fraud or Malfunction"""
+    data['anomaly'] = model.predict(X)
+    data['label'] = data['anomaly'].map({1: 'Normal', -1: 'Suspicious'})
+    return data[data['label'] == 'Suspicious']
+```
